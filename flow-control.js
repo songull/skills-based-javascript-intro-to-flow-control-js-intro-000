@@ -21,12 +21,11 @@ return "You are a teenager";
 } else {return "You are not a teenager";}
 }
 
-function switchAge(age) {switch(age) {
-case (age >= 13 && age <= 19):
-return ("You are a teenager");
+function switchAge(age) {switch(age){
+case (age >= 13 && age <=19):
+console.log("You are a teenager");
 break;
 default:
-return ('You are a teenager')
-break;
+console.log("You have an age");
 }
 }
